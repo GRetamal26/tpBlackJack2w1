@@ -1,0 +1,23 @@
+#btnVolver{
+   
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid;
+   
+    transition: all 1s ease;
+    position: relative;
+}
+#btnVolver:hover {
+    background: #318aac;
+    color: #fff !important;
+  }
+.mainbody{
+    position: absolute;
+    top: 0px; 
+    bottom: -150px; 
+    width: 100%;
+}

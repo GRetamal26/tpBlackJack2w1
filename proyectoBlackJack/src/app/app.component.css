@@ -1,0 +1,22 @@
+body{
+    background-color: #198754;
+}
+
+#btnRegla{
+   
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+#btnJugar{
+    margin: -20px -40px; 
+    position:relative;
+    top:40%; 
+    left:50%;
+}
+h1{
+    position: relative;
+    text-align: center;
+    top: 30%;
+}
