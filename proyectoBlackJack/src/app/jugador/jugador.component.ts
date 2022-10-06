@@ -39,6 +39,7 @@ export class JugadorComponent implements OnInit {
     if(this.puntaje > 21){
       this.resultado = 2;
       this.habilitarPedido = false;
+      this.onPlantar.emit(this.puntaje);
       
     }  
 
