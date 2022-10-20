@@ -1,5 +1,5 @@
 <div class="container-fluid h-100 mainbody" id="con"
-  style="background-image: url(https://raw.githubusercontent.com/GRetamal26/tpBlackJack2w1/main/proyectoBlackJack/src/assets/MESA2.jpg)">
+  style="background-image: url(https://raw.githubusercontent.com/GRetamal26/tpBlackJack2w1/main/proyectoBlackJack/src/assets/10.jpg)">
   
   <div class="row">
     <h3 class="col-12 text-center py-3">
@@ -10,7 +10,7 @@
   </div>
   <div class="row">
     <div class="col-6 text-center ">
-      <button class="btn btn-warning btn-lg " id="btnJugar" type="button" (click) = IrAJuegoNuevo()
+      <button class="btn btn-light btn-lg " id="btnJugar" type="button" (click) = IrAJuegoNuevo()
         >Nuevo Juego</button>
     </div>
   </div>
@@ -19,7 +19,7 @@
   <br>
   <div class="row">
     <div class="col-6 text-center">
-      <button [ngClass]="sesion.enjuego == 1 ? 'btn btn-warning btn-lg ' : 'btn btn-warning btn-lg disabled' " id="btnJugar" type="button"(click) = IrAJuego()
+      <button [ngClass]="sesion.enjuego == 1 ? 'btn btn-light btn-lg ' : 'btn btn-warning btn-lg disabled' " id="btnJugar" type="button"(click) = IrAJuego()
         >Continuar</button>
     </div>
   </div>
@@ -32,7 +32,7 @@
   <br>
   <div class="row">
     <div class="col-6 text-center">
-      <button class="btn btn-warning btn-lg" id="btnRegla" type="button" routerLink="/" 
+      <button class="btn btn-light btn-lg" id="btnRegla" type="button" routerLink="/" 
         >Cerrar sesion</button>
     </div>
   </div>
