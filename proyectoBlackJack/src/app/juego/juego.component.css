@@ -1,0 +1,21 @@
+.alert{
+  text-align: center;
+  width: 40%;
+}
+.botones{
+   
+  
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid;
+ 
+  transition: all 1s ease;
+  position: relative;
+}
+.reiniciar{
+  display: block;
+}
+.botones:hover {
+  background: #318aac;
+  color: #fff !important;
+}
