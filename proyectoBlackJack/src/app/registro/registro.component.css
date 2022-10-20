@@ -25,4 +25,13 @@ label{
 .btn-sign:hover {
     background: #318aac;
     color: #fff !important;
-  }
+
+}
+.mainbody{
+    position: absolute;
+    top: 0px; 
+    bottom: 0px;       
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
