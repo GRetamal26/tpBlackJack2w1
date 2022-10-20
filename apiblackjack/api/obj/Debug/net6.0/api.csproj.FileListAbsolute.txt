@@ -1,0 +1,72 @@
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\appsettings.json
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\api.exe
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\api.deps.json
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\api.runtimeconfig.json
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\api.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\api.pdb
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\api.csproj.AssemblyReference.cache
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\api.AssemblyInfoInputs.cache
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\api.AssemblyInfo.cs
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\api.csproj.CoreCompileInputs.cache
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\scopedcss\bundle\api.styles.css
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\api.csproj.CopyComplete
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\api.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\refint\api.dll
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\api.pdb
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\api.genruntimeconfig.cache
+C:\Users\Francisco\Desktop\UTN\4TO CUATRIMESTRE\ADMINISTRACION DE BASES DE DATOS\proyectos dabd iv\TPI\segunda entrega\apiblackjack\api\obj\Debug\net6.0\ref\api.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\appsettings.Development.json
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\appsettings.json
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\api.exe
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\api.deps.json
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\api.runtimeconfig.json
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\api.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\api.pdb
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\Humanizer.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\MySqlConnector.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\api.csproj.AssemblyReference.cache
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\api.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\api.AssemblyInfoInputs.cache
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\api.AssemblyInfo.cs
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\api.csproj.CoreCompileInputs.cache
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\api.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\api.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\staticwebassets.build.json
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\staticwebassets.development.json
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\scopedcss\bundle\api.styles.css
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\api.csproj.CopyComplete
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\api.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\refint\api.dll
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\api.pdb
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\api.genruntimeconfig.cache
+c:\Users\Usuario\Desktop\TP\apiblackjack\api\obj\Debug\net6.0\ref\api.dll

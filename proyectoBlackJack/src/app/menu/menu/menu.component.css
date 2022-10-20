@@ -14,8 +14,12 @@
 .mainbody{
   position: absolute;
   top: 0px; 
-  bottom: 0px; 
-  width: 100%;
+  bottom: 0px;   
+  height: 100%;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 #btnRegla:hover {
     background: #318aac;
@@ -43,6 +47,7 @@ h1{
     top: 30%;
 }
 
+
 /* .boton3 {
     color: #318aac !important;
     font-size: 20px;
@@ -58,4 +63,6 @@ h1{
     background: #318aac;
     color: #fff !important;
   }
+
+  url('https://fondosmil.com/fondo/27741.jpg');
    */

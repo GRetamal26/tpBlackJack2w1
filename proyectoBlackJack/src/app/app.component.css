@@ -1,6 +1,8 @@
-body{
-    background-color: #198754;
-}
+html, body {
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+  }
 
 #btnRegla{
    

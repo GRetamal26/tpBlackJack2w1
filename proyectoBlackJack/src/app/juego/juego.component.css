@@ -12,6 +12,15 @@
   transition: all 1s ease;
   position: relative;
 }
+.mainbody{
+  position: absolute;
+  top: 0px; 
+  bottom: 0px;       
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
 .reiniciar{
   display: block;
 }

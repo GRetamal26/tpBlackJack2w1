@@ -1,0 +1,28 @@
+.card{
+    border: none;
+    position:absolute;
+    padding: 40px;
+     top:10%;
+    left:25%; 
+    width:50%;
+    /*
+    height: 65%; */
+    background-image:url('https://fondosmil.com/fondo/27741.jpg') ;
+}
+label{
+    font-size: 20px;
+}
+.btn-sign{
+    
+    position:relative;
+    font-size: 20px;
+    font-weight: 300;
+    border: 2px solid;
+   
+    transition: all 1s ease;
+    position: relative;
+}
+.btn-sign:hover {
+    background: #318aac;
+    color: #fff !important;
+  }

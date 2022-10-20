@@ -1,0 +1,31 @@
+.mainbody{
+  position: absolute;
+  top: 0px; 
+  bottom: 0px;       
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.titulo{
+  color: rgba(255, 255, 0, 0.847); 
+  text-shadow: 3px  0px 0px black,
+            0px  3px 0px black,
+            -3px  0px 0px black,
+            0px -3px 0px black;
+}
+  #btnLogin{
+    margin: -20px -40px; 
+    position:relative;
+    top:20%; 
+    left:100%;
+    font-size: 20px;
+    font-weight: 300;
+    border: 2px solid;
+   
+    transition: all 1s ease;
+    position: relative;
+}
+#btnLogin:hover {
+    background: #318aac;
+    color: #fff !important;
+  }
