@@ -1,28 +1,40 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { ReactiveFormsModule } from '@angular/forms'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 import { JuegoComponent } from './juego/juego.component';
-import { JugadorComponent } from './jugador/jugador.component';
 import { CartaComponent } from './carta/carta.component';
 import { MenuComponent } from './menu/menu/menu.component';
 import { ReglaComponent } from './regla/regla/regla.component';
+import { LoginComponent } from './login/login.component';
+import { UsuarioService } from './services/usuario.service';
+import { PrincipalComponent } from './principal/principal.component';
+import { RegistroComponent } from './registro/registro.component';
+import { NgChartsModule } from 'ng2-charts';
+import { ReporteComponent } from './reporte/reporte.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    JuegoComponent,
-    JugadorComponent,    
+    JuegoComponent,      
     CartaComponent,
-    ReglaComponent
+    ReglaComponent,
+    LoginComponent,
+    PrincipalComponent,
+    RegistroComponent,
+    ReporteComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    NgChartsModule
   ],
-  providers: [],
+  providers: [UsuarioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

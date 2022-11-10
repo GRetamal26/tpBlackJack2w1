@@ -1,0 +1,41 @@
+<div class="container-fluid h-100 mainbody" style="background-image: url(https://raw.githubusercontent.com/GRetamal26/tpBlackJack2w1/main/proyectoBlackJack/src/assets/10.jpg)">
+    <div class="row">
+        <div class="col-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1 class="text-decoration-underline"><b>Registrese como nuevo usuario </b></h1>
+                    <h4> <b>Ingrese sus datos</b></h4>
+                </div>
+                <form [formGroup]="form">
+
+                    <div class="form-group mb-3">
+                        <label for="usuario"><b>Ingrese su usuario </b></label>
+                        <input type="text" class="form-control" id="usuario" formControlName="usuario"
+                            placeholder="Usuario..." [ngClass]="!form.get('usuario')?.touched ? '' : !form.get('usuario')?.hasError('required') ? 'is-valid' : 'is-invalid'">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="contrasenia"><b>Contraseña </b></label>
+                        <input type="password" class="form-control" id="contrasenia" formControlName="contrasenia"
+                            placeholder="Contraseña" [ngClass]="!form.get('contrasenia')?.touched ? '' : !form.get('contrasenia')?.hasError('required') ? 'is-valid' : 'is-invalid'">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="re-contrasenia"><b>Confirme contraseña </b></label>
+                        <input type="password" class="form-control" id="re_contrasenia" formControlName="re_contrasenia"
+                            placeholder="Contraseña" [ngClass]="!form.get('re_contrasenia')?.touched ? '' : !form.get('re_contrasenia')?.hasError('required') ? 'is-valid' : 'is-invalid'">
+                    </div>
+
+                    <button type="submit" class="btn btn-warning btn-sign" (click)="registrar()"><b>Registrar </b></button>
+                    <a style="color: white;" routerLink="/login">¿Ya estás registrado? Inicia Sesion!!</a>
+
+
+                </form>
+                <div *ngIf="error" class="container alert alert-danger mx-auto py-3" role="alert">
+                    <div class="mx-auto">
+                      <h3 class="alert-heading">Datos erroneos o usuario existente.</h3>
+                    </div>
+        
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -17,7 +17,7 @@ export class CartaComponent implements OnInit {
   ubicarImagen(carta:Carta): string{
     let palo = carta.palo
     let valor = carta.valor
-    return "../../assets/" + palo + valor + ".png";
+    return "https://raw.githubusercontent.com/GRetamal26/tpBlackJack2w1/1ra-Entrega/proyectoBlackJack/src/assets/" + palo + valor + ".png";
   }
 
 

@@ -1,56 +1,69 @@
-<div class="container-fluid bg-success h-100">
-  <button class="btn btn-warning btn-lg botones" id="btnVolver" type="button" routerLink="/menu">Volver</button>
+<div class="container-fluid bg-success h-100 mainbody" style="background-image: url(https://raw.githubusercontent.com/GRetamal26/tpBlackJack2w1/main/proyectoBlackJack/src/assets/MESA3.jpg)">  
+  <div class="row ">
+    <h3 class="container-fluid text-end" style="color:white" >Cartas restantes: {{cartasRestantes.length}}</h3>
+    <button class="btn btn-warning btn-lg botones col-1" id="btnVolver" type="button" (click)="volverAlMenu()">Volver</button>
+  </div>
+  
   <div class=" container-fluid text-center">
-    <h1 class="py-3"><ins>BLACKJACK</ins></h1>
-    <h2 class="">CARTAS DEL CRUPIER</h2>
-    <h5 class="">{{puntaje}}</h5>
+    
+    <h2 class="" style="color:white">CARTAS DEL CRUPIER</h2>
+    <h5 class="" style="color:white">{{puntajeCrupier}} puntos</h5>
     <div class="row d-flex justify-content-start">
       <div class="">
-        <app-carta [mano]="mano"></app-carta>
+        <app-carta [mano]="manoCrupier"></app-carta>
       </div>
     </div>
   </div>
-  <app-jugador (onPlantar)="plantarse($event)"></app-jugador>
-  <div>
-    <div *ngIf="resultado == 1" class="container alert alert-danger mx-auto py-3" role="alert">
+  
+  <div class="container-fluid text-center py-3">
+    <h2 style="color:white">CARTAS DEL JUGADOR</h2>
+    <h5 style="color:white">{{puntajeJugador}} puntos</h5>
+    <div class="row d-flex justify-content-center">    
+      <app-carta [mano]="manoJugador"></app-carta>
+    </div>
+    <div class="row">
+      <div class="col-3"></div>  
+      <div class="col-3">
+        <button class="btn btn-light botones" (click)="pedirCarta(manoJugador, true)" (click)="calcularCartasRestantes()" *ngIf="habilitarPedido">Pedir Carta</button>
+      </div>
+      <div class="col-3">
+        <button class="btn btn-light botones" (click)="plantarJugada()" *ngIf="habilitarPedido">Plantarse</button>
+      </div>
+      <div class="col-3"></div>
+    </div>
+  </div>
+  <div [ngSwitch]="resultado">
+    <div *ngSwitchCase="1" class="container alert alert-danger mx-auto py-3" role="alert">
       <div class="mx-auto">
         <h3 class="alert-heading">¡Te pasaste de 21! Crupier gana.</h3>
-      </div>      
-      <div class="d-grid gap-2 mx-auto py-3">
-        <button class="btn btn-lg btn-light botones" style="display: block;" (click)="reiniciarJuego()">Reiniciar juego</button>
       </div>
     </div>
-    <div *ngIf="resultado == 2" class="container alert alert-warning mx-auto py-3" role="alert">
+    <div *ngSwitchCase="2" class="container alert alert-warning mx-auto py-3" role="alert">
       <div class="mx-auto">
         <h3 class="alert-heading">Empate.</h3>
-      </div>      
-      <div class="d-grid gap-2 mx-auto py-3">
-        <button class="btn btn-lg btn-light botones" style="display: block;" (click)="reiniciarJuego()">Reiniciar juego</button>
-      </div>
+      </div> 
     </div>
-    <div *ngIf="resultado == 3" class="container alert alert-danger mx-auto py-3" role="alert">
+    <div *ngSwitchCase="3" class="container alert alert-danger mx-auto py-3" role="alert">
       <div class="mx-auto">
         <h3 class="alert-heading">Crupier gana.</h3>
-      </div>      
-      <div class="d-grid gap-2 mx-auto py-3">
-        <button class="btn btn-lg btn-light botones" style="display: block;" (click)="reiniciarJuego()">Reiniciar juego</button>
-      </div>
+      </div> 
     </div>    
-    <div *ngIf="resultado == 4" class="container alert alert-success mx-auto py-3" role="alert">
+    <div *ngSwitchCase="4" class="container alert alert-success mx-auto py-3" role="alert">
       <div class="mx-auto">
         <h3 class="alert-heading">¡Ganaste!</h3>
-      </div>      
-      <div class="d-grid gap-2 mx-auto py-3">
-        <button class="btn btn-lg btn-light botones" style="display: block;" (click)="reiniciarJuego()">Reiniciar juego</button>
-      </div>
+      </div> 
     </div>
-    <div *ngIf="resultado == 5" class="container alert alert-primary mx-auto py-3" role="alert">
+    <div *ngSwitchCase="5" class="container alert alert-primary mx-auto py-3" role="alert">
       <div class="mx-auto">
         <h3 class="alert-heading">¡¡¡21 BLACKJACK!!!</h3>
-      </div>      
-      <div class="d-grid gap-2 mx-auto py-3">
-        <button class="btn btn-lg btn-light botones" style="display: block;" (click)="reiniciarJuego()">Reiniciar juego</button>
       </div>
-    </div>        
+    </div>             
+    <div *ngIf="resultado!=0" class="gap-2 mx-auto py-3 row ">
+      <div class="col-sm"></div>
+      <button class="btn btn-light col-sm botones" (click)="siguienteRonda()">Siguiente ronda</button>
+      <div class="col-sm"></div>
+      <button class="btn btn-light col-sm botones" (click)="reiniciarJuego()">Reiniciar juego</button>
+      <div class="col-sm"></div>
+    </div>     
   </div>
 </div>
